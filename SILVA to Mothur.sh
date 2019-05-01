@@ -6,7 +6,7 @@ sed 1d taxmap_slv_ssu_ref_128_REady2.txt > taxmap_slv_ssu_ref_128_REady.txt
 
  # to modify the alignment for mothur
  cat YOURSILVAFASTAALIGNMENT.txt | sed 's/ /\t100\t/' > b.txt  # substitute the first space in silva for a tab then, and adds a fake align_ident_slv value (mothur is expecting it) and a second tab
- cat b.txt | sed -e 's/ /_/g' > c.txt ## substitutes spaces by undersoceres in the taxonomy string
+ cat b.txt | sed -e 's/ /_/g' > c.txt ## substitutes spaces by underscores in the taxonomy string
  cat c.txt | awk '/^>/{print s? s"\n"$0:$0;s="";next}{s=s sprintf("%s",$0)}END{if(s)print s}' > READYtoGOfasta.txt
  
 #Once with these outfiles, you can select your region using Mothur
