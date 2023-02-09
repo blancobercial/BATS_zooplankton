@@ -1,4 +1,4 @@
-[![OCE-17561058](https://img.shields.io/badge/NSF-1756105-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1756105)
+[![OCE-17561058](https://img.shields.io/badge/NSF-1756105-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1756105) [![OCE-1522206](https://img.shields.io/badge/NSF-1522206-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1522206) 
 
 # BATS zooplankton metabarcoding
 
